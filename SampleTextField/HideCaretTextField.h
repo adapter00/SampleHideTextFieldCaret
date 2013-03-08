@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HideCaretTextField.h
 //  SampleTextField
 //
 //  Created by takao maeda on 2013/03/08.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (strong, nonatomic) IBOutlet UITextField *HideCaretTextField;
+@interface HideCaretTextField : UITextField
 
 @end

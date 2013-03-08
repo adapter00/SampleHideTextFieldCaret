@@ -23,6 +23,7 @@
 		821807D016EA1B99009633B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821807AB16EA1B99009633B0 /* Foundation.framework */; };
 		821807D816EA1B99009633B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 821807D616EA1B99009633B0 /* InfoPlist.strings */; };
 		821807DB16EA1B99009633B0 /* SampleTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 821807DA16EA1B99009633B0 /* SampleTextFieldTests.m */; };
+		821807E616EA1BD0009633B0 /* HideCaretTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 821807E516EA1BD0009633B0 /* HideCaretTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		821807D716EA1B99009633B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		821807D916EA1B99009633B0 /* SampleTextFieldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleTextFieldTests.h; sourceTree = "<group>"; };
 		821807DA16EA1B99009633B0 /* SampleTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTextFieldTests.m; sourceTree = "<group>"; };
+		821807E416EA1BD0009633B0 /* HideCaretTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideCaretTextField.h; sourceTree = "<group>"; };
+		821807E516EA1BD0009633B0 /* HideCaretTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HideCaretTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				821807C216EA1B99009633B0 /* ViewController.m */,
 				821807C416EA1B99009633B0 /* ViewController.xib */,
 				821807B016EA1B99009633B0 /* Supporting Files */,
+				821807E416EA1BD0009633B0 /* HideCaretTextField.h */,
+				821807E516EA1BD0009633B0 /* HideCaretTextField.m */,
 			);
 			path = SampleTextField;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				821807B616EA1B99009633B0 /* main.m in Sources */,
 				821807BA16EA1B99009633B0 /* AppDelegate.m in Sources */,
 				821807C316EA1B99009633B0 /* ViewController.m in Sources */,
+				821807E616EA1BD0009633B0 /* HideCaretTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
