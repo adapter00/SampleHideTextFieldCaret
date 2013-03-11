@@ -34,4 +34,14 @@
     return CGRectZero;
 }
 
+
+//this method is overRide from UITextField
+-(void)addGestureRecognizer:(UIGestureRecognizer *)gestureRecognizer{
+    if ([gestureRecognizer isKindOfClass:[UILongPressGestureRecognizer class]]) {
+        gestureRecognizer.enabled=NO;
+    }
+    [super addGestureRecognizer:gestureRecognizer];
+    return;
+}
+
 @end
